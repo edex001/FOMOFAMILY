@@ -1,5 +1,5 @@
 // ============================================
-// MAESTRO TRADING BOT — COMPLETE UPDATED VERSION
+// FOMO TRADING BOT — COMPLETE UPDATED VERSION
 // Jupiter V6 + Multi-Wallet + 2.5% SOL Commission (normal address)
 // Sniper TP/SL + Trade History + PNL + Referrals + Admin Broadcast
 // ============================================
@@ -1153,7 +1153,7 @@ async function showMainMenu(ctx, edit = false) {
     } catch { await ctx.reply(message, { parse_mode:'Markdown', ...keyboard }); }
   } catch (error) {
     console.error('Main menu error:', error);
-    await ctx.reply('🚀 Maestro Bot\n\n⚠️ Error loading menu', { ...Markup.inlineKeyboard([[Markup.button.callback('🔄 Refresh', 'refresh_main')]]) });
+    await ctx.reply('🚀 FOMO Bot\n\n⚠️ Error loading menu', { ...Markup.inlineKeyboard([[Markup.button.callback('🔄 Refresh', 'refresh_main')]]) });
   }
 }
 
